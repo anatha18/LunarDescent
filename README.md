@@ -106,7 +106,7 @@ Detail skenario ada di [`/docs/usecase_detail.md`](./usecase_detail.md)
 ---
 
 ## 7. Class Diagram
-![Class Diagram](assets/classdiagram.png)
+![Class Diagram](assets/class diagram.png)
 
 **Class Utama:**
 - Wallet (Balance, Address, PrivateKey, PublicKey, CreateTransaction, SignTransaction, GetBalance, SyncWithBlockchain)
@@ -124,30 +124,36 @@ Detail skenario ada di [`/docs/usecase_detail.md`](./usecase_detail.md)
 - Menu: Play, Settings, Armory, Store
 - Friend List panel
 - Currency display
+  
 ![Main Menu](assets/mainmenu.png)
 ### 8.2 Room Screen
 - Create Room & Join Room buttons
 - Back button, Settings icon
+  
 ![Room Screen](assets/roomscreen.png)
 ### 8.3 Store
 - Item list & preview
 - Currency display
 - Navigation arrows
+  
 ![Store](assets/store.png)
 ### 8.4 Armory
 - Weapon categories (Pistols, Rifles, Shotguns)
 - Preview panel
+  
 ![Armory](assets/armory.png)
 ### 8.5 Settings
 - Audio settings
 - Control sensitivity
 - Graphics quality
 - Crosshair & enemy colors
+  
 ![Settings](assets/setting.png)
 ### 8.6 Gameplay
 - First-person view
 - Mini-map & compass
 - HUD dengan ammo, health, dan objectives
+  
 ![Gameplay](assets/gameplay.png)
 ---
 
