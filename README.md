@@ -105,7 +105,7 @@ Scenario details are in [`USECASE DETAIL](USECASEDIAGRAM.pdf)
 ---
 
 ## 7. Class Diagrams
-![Class Diagram](assets/class diagram.png)
+![Class Diagram](assets/classdiagram.png)
 
 **Main Class:**
 - Wallet (Balance, Address, PrivateKey, PublicKey, CreateTransaction, SignTransaction, GetBalance, SyncWithBlockchain)
