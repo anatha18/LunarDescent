@@ -1,82 +1,81 @@
-# LunarDescent
-This is a project that I developed myself for my Masters thesis, namely creating a Multiplayer FPS game that implements Blockchain Technology for all transactions.
+#LunarDescent
+This is a project I developed myself for my Master's thesis, creating a multiplayer FPS game that implements blockchain technology for all transactions.
 
-
-# Lunar Descent — Game Design Document (GDD)
+#LunarDescent — Game Design Document (GDD)
 
 ## 1. Game Overview
 
-### 1.1 Konsep
-**Lunar Descent** adalah game **multiplayer first-person shooter (FPS)** berbasis teknologi **blockchain**. Pemain berpartisipasi dalam pertempuran intens melawan pemain lain untuk mencapai kemenangan. Integrasi blockchain memastikan keamanan, transparansi, dan kepemilikan penuh atas aset digital dalam game.
+### 1.1 Concept
+LunarDescent is a multiplayer first-person shooter (FPS) game based on blockchain technology. Players engage in intense battles against other players to achieve victory. Blockchain integration ensures security, transparency, and full ownership of in-game digital assets.
 
-**Fitur Utama:**
-- Pertempuran FPS intens & kompetitif
-- Ekonomi dalam game berbasis blockchain (Ethereum + NFT)
-- Fitur sosial & komunitas
-- Kustomisasi senjata dan karakter
+**Key Features:**
+- Intense & competitive FPS combat
+- Blockchain-based in-game economy (Ethereum + NFT)
+- Social & community features
+- Weapon and character customization
 
 ### 1.2 Genre
 - Multiplayer FPS
 - Blockchain-powered
-- Kompetitif, aksi cepat, berbasis skill
+- Competitive, fast-paced, skill-based action
 
-### 1.3 Target Pemain
-- Pemain FPS multiplayer
-- Penggemar teknologi blockchain & NFT
-- Pasar kompetitif (eSports) dan pemain kasual
+### 1.3 Target Audience
+- Multiplayer FPS players
+- Blockchain & NFT enthusiasts
+- Competitive marketplace (eSports) and casual gamers
 
 ### 1.4 Platform
 - PC / Desktop (Windows, MacOS)
-- 3D Graphics menggunakan Unity Engine
+- 3D Graphics using Unity Engine
 
 ### 1.5 Visual Style
-- Realistis dan mendalam
-- Grafis berkualitas tinggi
-- Tema futuristik dengan sentuhan cyberpunk
+- Realistic and immersive
+- High-quality graphics
+- Futuristic theme with a cyberpunk touch
 
 ---
 
 ## 2. Gameplay
 
-### 2.1 Mode Permainan
-1. **Team Battle** – Pertarungan berbasis tim
-2. **Free-for-All** – Semua pemain saling berhadapan
-3. **Objective Missions** – Misi dengan target spesifik
+### 2.1 Game Modes
+1. **Team Battle** – Team-based combat
+2. **Free-for-All** – All players face each other
+3. **Objective Missions** – Missions with objectives Specifics
 
-### 2.2 Integrasi Blockchain
+### 2.2 Blockchain Integration
 - **Platform:** Ethereum
-- **Aset Digital:** NFT (senjata, skin, aksesoris)
-- **Kepemilikan & Perdagangan:** Pemain dapat memperjualbelikan aset di marketplace blockchain
-- **Proof of Stake (PoS):** Validasi transaksi real-time
+- **Digital Assets:** NFTs (weapons, skins, accessories)
+- **Ownership & Trading:** Players can buy and sell assets on the blockchain marketplace
+- **Proof of Stake (PoS):** Real-time transaction validation
 
-### 2.3 Ekonomi Game
-- Earn-to-Play: Pemain mendapatkan aset melalui gameplay
-- Marketplace Terbuka
-- Token In-Game untuk transaksi
+### 2.3 Game Economy
+- Earn-to-Play: Players earn assets through gameplay
+- Open Marketplace
+- In-Game Tokens for transactions
 
 ### 2.4 Customization
-- Upgrade senjata & kemampuan karakter
-- Kustomisasi visual (skin, aksesoris)
-- Semua progres tercatat di blockchain
+- Upgrade weapons & character abilities
+- Visual customization (skins, accessories)
+- All progress is recorded on the blockchain
 
 ---
 
 ## 3. Core Game Loop
-1. Masuk Game → Login / buat nickname
-2. Pilih Mode → Team Battle / FFA / Objective
-3. Bertarung → Kumpulkan poin & aset
-4. Dapatkan Reward → NFT / token
-5. Trade / Upgrade → Gunakan atau jual aset
-6. Ulangi → Tingkatkan skill & koleksi
+1. Enter the Game → Login / Create a Nickname
+2. Select Mode → Team Battle / FFA / Objective
+3. Fight → Collect points & assets
+4. Earn Rewards → NFT / Token
+5. Trade / Upgrade → Use or sell assets
+6. Repeat → Improve skills & collections
 
 ---
 
-## 4. Fitur Utama
-- FPS Multiplayer dengan real-time combat
-- Ekonomi Terdesentralisasi
+## 4. Key Features
+- Multiplayer FPS with real-time combat
+- Decentralized Economy
 - NFT Marketplace
-- Progression System berbasis blockchain
-- Komunitas & Turnamen
+- Blockchain-based Progression System
+- Community & Tournaments
 
 ---
 
@@ -86,17 +85,17 @@ This is a project that I developed myself for my Masters thesis, namely creating
 ![Use Case Diagram](assets/usecase.png)
 
 ### 5.2 Use Case Description
-| No | Nama Use Case | Aktor | Deskripsi Singkat |
-|----|--------------|-------|-------------------|
-| 1 | Input Nickname | Pemain | Pemain memasukkan nama yang akan digunakan dalam game |
-| 2 | Play Game | Pemain | Memulai pertandingan |
-| 3 | Shop | Pemain | Membeli item atau aset dalam game |
-| 4 | Settings | Pemain | Mengatur kontrol, audio, dan grafis |
-| 5 | Help | Pemain | Melihat tutorial dan panduan |
-| 6 | Create Room | Pemain | Membuat ruang permainan |
-| 7 | Join Room | Pemain | Bergabung ke ruang permainan dengan kode |
+| No. | Use Case Name | Actor | Short Description |
+|----|---------|-------|-------------------|
+| 1 | Input Nickname | Player | Player enters the name to be used in the game |
+| 2 | Play Game | Player | Starts a match |
+| 3 | Shop | Player | Purchases in-game items or assets |
+| 4 | Settings | Player | Adjusts controls, audio, and graphics |
+| 5 | Help | Players | View tutorials and guides |
+| 6 | Create Room | Players | Create a game room |
+| 7 | Join Room | Players | Join a game room with a code |
 
-Detail skenario ada di [`USECASE DETAIL](USECASEDIAGRAM.pdf)
+Scenario details are in [`USECASE DETAIL](USECASEDIAGRAM.pdf)
 
 ---
 
@@ -105,16 +104,16 @@ Detail skenario ada di [`USECASE DETAIL](USECASEDIAGRAM.pdf)
 
 ---
 
-## 7. Class Diagram
+## 7. Class Diagrams
 ![Class Diagram](assets/class diagram.png)
 
-**Class Utama:**
+**Main Class:**
 - Wallet (Balance, Address, PrivateKey, PublicKey, CreateTransaction, SignTransaction, GetBalance, SyncWithBlockchain)
-- Transaction
+- Transactions
 - Marketplace
-- Map
-- Character
-- Level
+- Folder
+- Characters
+- Levels
 
 ---
 
@@ -124,44 +123,42 @@ Detail skenario ada di [`USECASE DETAIL](USECASEDIAGRAM.pdf)
 - Menu: Play, Settings, Armory, Store
 - Friend List panel
 - Currency display
-  
+
 ![Main Menu](assets/mainmenu.png)
 ### 8.2 Room Screen
 - Create Room & Join Room buttons
 - Back button, Settings icon
-  
+
 ![Room Screen](assets/roomscreen.png)
 ### 8.3 Store
 - Item list & preview
 - Currency display
 - Navigation arrows
-  
+
 ![Store](assets/store.png)
 ### 8.4 Armory
 - Weapon categories (Pistols, Rifles, Shotguns)
-- Preview panel
-  
+- Preview panels
+
 ![Armory](assets/armory.png)
 ### 8.5 Settings
 - Audio settings
 - Control sensitivity
 - Graphics quality
 - Crosshair & enemy colors
-  
+
 ![Settings](assets/setting.png)
 ### 8.6 Gameplay
 - First-person view
 - Mini-map & compass
-- HUD dengan ammo, health, dan objectives
-  
+- HUD with ammo, health, and objectives
+
 ![Gameplay](assets/gameplay.png)
 ---
 
-## 9. Peningkatan & Inovasi
-- Proof of Stake (PoS) untuk validasi transaksi real-time
-- NFT sebagai aset game yang dapat diperdagangkan
-- Sistem reward transparan dan adil
+## 9. Improvement & Innovation
+- Proof of Stake (PoS) for real-time transaction validation
+- NFTs as tradable game assets
+- System transparent and fair rewards
 
 ---
-
-
