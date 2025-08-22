@@ -96,7 +96,7 @@ This is a project that I developed myself for my Masters thesis, namely creating
 | 6 | Create Room | Pemain | Membuat ruang permainan |
 | 7 | Join Room | Pemain | Bergabung ke ruang permainan dengan kode |
 
-Detail skenario ada di [`/docs/usecase_detail.md`](./usecase_detail.md)
+Detail skenario ada di [`USECASE DETAIL](USECASEDIAGRAM.pdf)
 
 ---
 
